@@ -1,0 +1,86 @@
+body {
+    background: #ffe4e9;
+    font-family: Arial;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid pink;
+    text-align: center;
+}
+
+h1 {
+    color: #d44e6c;
+}
+
+p {
+    background: #ffe4e9;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#block {
+    background: #ffd9e2;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 2px solid pink;
+}
+
+button {
+    background: pink;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 3px;
+    border-radius: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 100px;
+}
+
+/* Для кнопки 5 */
+.highlight {
+    background: hotpink !important;
+    border: 3px solid deeppink !important;
+    color: white;
+}
+
+/* Для кнопок 3 и 4 */
+.hidden {
+    display: none;
+}
+
+/* Для кнопки 6 */
+.dark {
+    background: #2d1e23;
+}
+
+.dark .card {
+    background: #33262b;
+    border-color: hotpink;
+}
+
+.dark h1 {
+    color: hotpink;
+}
+
+.dark p {
+    background: #4a2f38;
+    color: white;
+}
+
+.dark #block {
+    background: #5c3a45;
+    color: white;
+    border-color: hotpink;
+}
+
+.dark button {
+    background: hotpink;
+}
